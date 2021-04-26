@@ -1,0 +1,277 @@
+{
+  "id": "d7078c31-88af-4c0b-b762-ea7f9d37a062",
+  "version": "2.0",
+  "name": "Homework1.Task2",
+  "url": "https://software-testing.ru/forum/",
+  "tests": [{
+    "id": "8c713fa9-3dc6-40bd-be44-1d72d122edf9",
+    "name": "Succesful authorization",
+    "commands": [{
+      "id": "34ec671c-cb3d-45b3-9f1c-4610f7c7b105",
+      "comment": "",
+      "command": "open",
+      "target": "https://software-testing.ru/forum/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f8ffcdd0-3faf-4335-b1c4-e8084a39ebbf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1848x1053",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1de23829-31b2-48b1-9da9-06882537bbf0",
+      "comment": "",
+      "command": "click",
+      "target": "id=sign_in",
+      "targets": [
+        ["id=sign_in", "id"],
+        ["linkText=Войти", "linkText"],
+        ["css=#sign_in", "css:finder"],
+        ["xpath=//a[contains(text(),'Войти')]", "xpath:link"],
+        ["xpath=//a[@id='sign_in']", "xpath:attributes"],
+        ["xpath=//div[@id='user_navigation']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://software-testing.ru/forum/index.php?app=core&module=global&section=login')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Войти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e11ab726-2142-49a1-b2e6-d5680193c16d",
+      "comment": "",
+      "command": "click",
+      "target": "id=ips_username",
+      "targets": [
+        ["id=ips_username", "id"],
+        ["name=ips_username", "name"],
+        ["css=#ips_username", "css:finder"],
+        ["xpath=//input[@id='ips_username']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/div/fieldset/ul/li[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b208d99-3161-4b91-a59f-99a265a030e5",
+      "comment": "",
+      "command": "type",
+      "target": "id=ips_username",
+      "targets": [
+        ["id=ips_username", "id"],
+        ["name=ips_username", "name"],
+        ["css=#ips_username", "css:finder"],
+        ["xpath=//input[@id='ips_username']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/div/fieldset/ul/li[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "SchastlivyMax"
+    }, {
+      "id": "dfaaa411-5d09-46f8-8041-bf6c94e41bde",
+      "comment": "",
+      "command": "click",
+      "target": "id=ips_password",
+      "targets": [
+        ["id=ips_password", "id"],
+        ["name=ips_password", "name"],
+        ["css=#ips_password", "css:finder"],
+        ["xpath=//input[@id='ips_password']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/div/fieldset/ul/li[3]/div/input", "xpath:idRelative"],
+        ["xpath=//li[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d54527b3-db61-498f-972c-f2afd6007872",
+      "comment": "",
+      "command": "type",
+      "target": "id=ips_password",
+      "targets": [
+        ["id=ips_password", "id"],
+        ["name=ips_password", "name"],
+        ["css=#ips_password", "css:finder"],
+        ["xpath=//input[@id='ips_password']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/div/fieldset/ul/li[3]/div/input", "xpath:idRelative"],
+        ["xpath=//li[3]/div/input", "xpath:position"]
+      ],
+      "value": "12345678"
+    }, {
+      "id": "cd68ff1f-9b4a-410f-8152-7a81c0025fcc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ipsButton",
+      "targets": [
+        ["css=.ipsButton", "css:finder"],
+        ["xpath=//input[@value='Войти']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "18bb6855-136b-4f75-b4ad-8be59b871ca6",
+      "comment": "",
+      "command": "assertText",
+      "target": "//a[text()='Выход']",
+      "targets": [],
+      "value": "Выход"
+    }]
+  }, {
+    "id": "bc237fe3-3b53-4307-a728-d104e2c47e2f",
+    "name": "Succesful search",
+    "commands": [{
+      "id": "63683dba-e0a4-4b99-b776-14be1498f48d",
+      "comment": "",
+      "command": "open",
+      "target": "https://software-testing.ru/forum/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b9d1933-e0d4-49ae-96ec-b3ab173c0091",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1848x1053",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7c47375e-8e58-451b-a7e4-0e2469da8ea8",
+      "comment": "",
+      "command": "click",
+      "target": "id=sign_in",
+      "targets": [
+        ["id=sign_in", "id"],
+        ["linkText=Войти", "linkText"],
+        ["css=#sign_in", "css:finder"],
+        ["xpath=//a[contains(text(),'Войти')]", "xpath:link"],
+        ["xpath=//a[@id='sign_in']", "xpath:attributes"],
+        ["xpath=//div[@id='user_navigation']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://software-testing.ru/forum/index.php?app=core&module=global&section=login')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Войти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1543245a-eaa7-4108-876a-d1f6c55cb1d0",
+      "comment": "",
+      "command": "click",
+      "target": "id=ips_username",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "13fbf5bb-4cf9-4ef4-b246-6ef692de3433",
+      "comment": "",
+      "command": "type",
+      "target": "id=ips_username",
+      "targets": [
+        ["id=ips_username", "id"],
+        ["name=ips_username", "name"],
+        ["css=#ips_username", "css:finder"],
+        ["xpath=//input[@id='ips_username']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/div/fieldset/ul/li[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "SchastlivyMax"
+    }, {
+      "id": "02875089-adb5-41b8-a086-1850f3f17a08",
+      "comment": "",
+      "command": "click",
+      "target": "id=ips_password",
+      "targets": [
+        ["id=ips_password", "id"],
+        ["name=ips_password", "name"],
+        ["css=#ips_password", "css:finder"],
+        ["xpath=//input[@id='ips_password']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/div/fieldset/ul/li[3]/div/input", "xpath:idRelative"],
+        ["xpath=//li[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77864db1-f497-465d-a0ff-dafd3322ecbf",
+      "comment": "",
+      "command": "type",
+      "target": "id=ips_password",
+      "targets": [
+        ["id=ips_password", "id"],
+        ["name=ips_password", "name"],
+        ["css=#ips_password", "css:finder"],
+        ["xpath=//input[@id='ips_password']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/div/fieldset/ul/li[3]/div/input", "xpath:idRelative"],
+        ["xpath=//li[3]/div/input", "xpath:position"]
+      ],
+      "value": "12345678"
+    }, {
+      "id": "a51e2a1b-de11-45a7-9478-d060a40c1808",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ipsButton",
+      "targets": [
+        ["css=.ipsButton", "css:finder"],
+        ["xpath=//input[@value='Войти']", "xpath:attributes"],
+        ["xpath=//form[@id='login']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b441d3f-ef38-4695-9fc6-d28f867baac5",
+      "comment": "",
+      "command": "click",
+      "target": "id=main_search",
+      "targets": [
+        ["id=main_search", "id"],
+        ["name=search_term", "name"],
+        ["css=#main_search", "css:finder"],
+        ["xpath=//input[@id='main_search']", "xpath:attributes"],
+        ["xpath=//span[@id='search_wrap']/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5fb5e8d9-ec52-4310-ab6c-1b95a9b0d454",
+      "comment": "",
+      "command": "type",
+      "target": "id=main_search",
+      "targets": [
+        ["id=main_search", "id"],
+        ["name=search_term", "name"],
+        ["css=#main_search", "css:finder"],
+        ["xpath=//input[@id='main_search']", "xpath:attributes"],
+        ["xpath=//span[@id='search_wrap']/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "Начинающему тестировщику"
+    }, {
+      "id": "f1875c57-1c28-4ea6-b171-f33ec436ee77",
+      "comment": "",
+      "command": "click",
+      "target": "css=.submit_input",
+      "targets": [
+        ["css=.submit_input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//span[@id='search_wrap']/input[2]", "xpath:idRelative"],
+        ["xpath=//span/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b46e811-5b2d-4ede-a9c4-f9b575ef4914",
+      "comment": "",
+      "command": "waitForText",
+      "target": "//em/strong[text()='начинающему тестировщику']",
+      "targets": [],
+      "value": "начинающему тестировщику"
+    }, {
+      "id": "0e107d7c-b5c9-4bb2-b3b6-f314510458f0",
+      "comment": "",
+      "command": "assertText",
+      "target": "//em/strong[text()='начинающему тестировщику']",
+      "targets": [],
+      "value": "начинающему тестировщику"
+    }]
+  }],
+  "suites": [{
+    "id": "86b8060c-db05-47af-817f-9599e7121438",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8c713fa9-3dc6-40bd-be44-1d72d122edf9"]
+  }],
+  "urls": ["https://software-testing.ru/", "https://software-testing.ru/forum/"],
+  "plugins": []
+}

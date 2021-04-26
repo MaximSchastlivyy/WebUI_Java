@@ -1,0 +1,6 @@
+Сайт https://software-testing.ru/forum/
+1. Кнопка поиска - //ul[@id='search_options_menucontent']
+2. Кнопка "Тренинги" - //li[@id='portal-nav-edu']/a[text()='Тренинги']
+3. Кнопка "Помощь" - //div[@id='footer_utilities']//a[text()='Помощь']
+4. Кнопка "vk Подписаться на новости" - //div[@id='community_footer'] /button
+5. Кнопка "Рейтинг контента" - //div[@id='board_statistics'] /ul[@id='stat_links']//a[@title='Рейтинг Контента']
