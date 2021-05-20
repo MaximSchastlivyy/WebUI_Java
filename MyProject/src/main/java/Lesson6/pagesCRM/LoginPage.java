@@ -1,5 +1,6 @@
 package Lesson6.pagesCRM;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -19,16 +20,19 @@ public class LoginPage extends BaseView {
         super(driver);
     }
 
+    @Step("Заполнить поле Логин")
     public LoginPage fillInputLogin(String login) {
         inputLogin.sendKeys(login);
         return this;
     }
 
+    @Step("Заполнить поле Пароль")
     public LoginPage fillInputPassword(String password) {
         inputPassword.sendKeys(password);
         return this;
     }
 
+    @Step("Нажать на кнопку Войти")
     public MainPage submitLogin() {
         buttonSubmit.click();
         return new MainPage(driver);

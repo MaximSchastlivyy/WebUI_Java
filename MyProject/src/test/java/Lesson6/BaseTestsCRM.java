@@ -1,17 +1,24 @@
 package Lesson6;
 
 import Lesson6.pagesCRM.LoginPage;
+import Lesson7.CustomLogger;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.logging.LogEntry;
+import org.openqa.selenium.logging.LogType;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+
+import java.util.List;
+
 import static Lesson6.Configuration.BASE_URL_CRM;
 
 public class BaseTestsCRM {
-    WebDriver driver;
+    EventFiringWebDriver driver;
     WebDriverWait webDriverWait;
     LoginPage loginPage;
 
@@ -22,8 +29,9 @@ public class BaseTestsCRM {
 
     @BeforeEach
     public void setupBrowser() {
-        driver = new ChromeDriver();
-        webDriverWait = new WebDriverWait(driver, 5);
+        driver = new EventFiringWebDriver(new ChromeDriver());
+        driver.register(new CustomLogger());
+        webDriverWait = new WebDriverWait(driver, 15);
         loginPage = new LoginPage(driver);
     }
 
@@ -38,6 +46,11 @@ public class BaseTestsCRM {
 
     @AfterEach
     void tearDown() {
+        List<LogEntry> logs = driver.manage().logs().get(LogType.BROWSER).getAll();
+        if (logs.size() > 0) {
+            driver.manage().logs().get(LogType.BROWSER).getAll().forEach(System.out::println);
+        } else driver.quit();
+
         driver.quit();
     }
 }

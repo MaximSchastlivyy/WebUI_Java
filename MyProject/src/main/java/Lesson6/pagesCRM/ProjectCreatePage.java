@@ -1,5 +1,6 @@
 package Lesson6.pagesCRM;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -16,6 +17,7 @@ public class ProjectCreatePage extends BaseView{
     @FindBy(name = "crm_project[name]")
     public WebElement name;
 
+    @Step("Заполнить поле Имя")
     public ProjectCreatePage fillName(String newName) {
         name.sendKeys(newName);
         return this;
@@ -31,6 +33,7 @@ public class ProjectCreatePage extends BaseView{
 
     public By selectedOrganizationLocator = By.xpath("//input[@class='select2-input select2-focused']");
 
+    @Step("Установить организацию")
     public ProjectCreatePage setOrganization(String org) {
         organization.click();
         webDriverWait.until(ExpectedConditions.elementToBeClickable(selectedOrganizationLocator));
@@ -53,6 +56,7 @@ public class ProjectCreatePage extends BaseView{
     @FindBy(xpath = "//input[@name='crm_project[type]' and contains(@data-name, 'field__1')]")
     public WebElement contactForProject;
 
+    @Step("Установить контактное лицо")
     public ProjectCreatePage setContact () {
         webDriverWait.until(ExpectedConditions.elementToBeClickable(contactLocator));
         contact.click();
@@ -65,6 +69,7 @@ public class ProjectCreatePage extends BaseView{
     @FindBy(name = "crm_project[businessUnit]")
     public WebElement businessUnit;
 
+    @Step("Выбрать подразделение")
     public ProjectCreatePage selectBusinessUnit(String unit) {
         new Select(businessUnit).selectByVisibleText(unit);
         return this;
@@ -73,6 +78,7 @@ public class ProjectCreatePage extends BaseView{
     @FindBy(name = "crm_project[curator]")
     public WebElement curator;
 
+    @Step("Выбрать куратора проекта")
     public ProjectCreatePage selectCurator(String cur) {
         new Select(curator).selectByVisibleText(cur);
         return this;
@@ -81,6 +87,7 @@ public class ProjectCreatePage extends BaseView{
     @FindBy(name = "crm_project[rp]")
     public WebElement rp;
 
+    @Step("Выбрать руководителя проекта")
     public ProjectCreatePage selectRp(String r) {
         new Select(rp).selectByVisibleText(r);
         return this;
@@ -89,6 +96,7 @@ public class ProjectCreatePage extends BaseView{
     @FindBy(name = "crm_project[administrator]")
     public WebElement administrator;
 
+    @Step("Выбрать администратора проекта")
     public ProjectCreatePage selectAdministrator(String adm) {
         new Select(administrator).selectByVisibleText(adm);
         return this;
@@ -97,6 +105,7 @@ public class ProjectCreatePage extends BaseView{
     @FindBy(name = "crm_project[manager]")
     public WebElement manager;
 
+    @Step("Выбрать менеджера проекта")
     public ProjectCreatePage selectManager(String man) {
         new Select(manager).selectByVisibleText(man);
         return this;

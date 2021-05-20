@@ -1,5 +1,6 @@
 package Lesson6.pagesMyProject;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -15,6 +16,7 @@ public class MainPage extends BaseView{
         super(driver);
     }
 
+    @Step("Нажать на кнопку Войти")
     public void setSignIn() {
         signIn.click();
         webDriverWait.until(ExpectedConditions.elementToBeClickable(new LoginPage(driver).loginLocator));
@@ -28,6 +30,7 @@ public class MainPage extends BaseView{
     @FindBy(xpath = "//a[text()='Тренинги']")
     public WebElement trenings;
 
+    @Step("Перейти на страницу тренингов")
     public void goToTrenings() {
         trenings.click();
         webDriverWait.until(ExpectedConditions.presenceOfElementLocated(new TreningsPage(driver).englishForTestersLocator));
@@ -49,12 +52,14 @@ public class MainPage extends BaseView{
 
     public By writeMessageLocator = By.xpath("//a[text()='Написать личное сообщение']");
 
+    @Step("Ввести информацию в поле поиск")
     public void searchInformation (String info) {
         mainSearch.sendKeys(info);
         submitSearch.click();
         webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(new SearchResultPage(driver).searchResultLocator));
     }
 
+    @Step("Перейти на страницу отправки сообщения")
     public void sendMessage () {
         webDriverWait.until(ExpectedConditions.presenceOfElementLocated(inboxLinkLocator));
         inboxLink.click();
