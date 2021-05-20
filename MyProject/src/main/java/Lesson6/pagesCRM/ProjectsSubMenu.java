@@ -1,5 +1,6 @@
 package Lesson6.pagesCRM;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -13,6 +14,7 @@ public class ProjectsSubMenu extends BaseView{
     @FindBy(xpath = "//span[text()='Все проекты']")
     public WebElement allProjectsButton;
 
+    @Step("Перейти на страницу проектов")
     public void createProject() {
         allProjectsButton.click();
         webDriverWait.until(

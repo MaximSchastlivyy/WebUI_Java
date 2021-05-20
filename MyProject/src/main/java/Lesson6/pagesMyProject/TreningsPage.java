@@ -1,5 +1,6 @@
 package Lesson6.pagesMyProject;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -16,6 +17,7 @@ public class TreningsPage extends BaseView{
 
     public By englishForTestersLocator = By.xpath("//a[text()='Английский для тестировщиков']");
 
+    @Step("Перейти на страницу тренинга по английскому")
     public void goToEnglishTrening() {
         englishForTesters.click();
         webDriverWait.until(ExpectedConditions.presenceOfElementLocated(new EnglishTreningPage(driver).signInLocator));

@@ -1,6 +1,7 @@
 package Lesson6.pagesMyProject;
 
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -18,6 +19,7 @@ public class MessagesPage extends BaseView{
 
     public By nameLocator = By.id("entered_name");
 
+    @Step("Заполнить поле Имя")
     public MessagesPage fillEntetredName(String name) {
         enteredName.sendKeys(name);
         return this;
@@ -26,6 +28,7 @@ public class MessagesPage extends BaseView{
     @FindBy (id = "message_subject")
     public WebElement messageSubject;
 
+    @Step("Заполнить поле Тема")
     public MessagesPage fillMessageSubject (String message) {
         messageSubject.sendKeys(message);
         return this;
@@ -39,6 +42,7 @@ public class MessagesPage extends BaseView{
 
     public By errorLocator = By.xpath("//h4[text()='Обнаружены следующие ошибки:']");
 
+    @Step("Нажать на кнопку Отправить сообщение")
     public void sendMessage() {
         submitMessage.click();
         webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(errorLocator));

@@ -1,0 +1,164 @@
+{
+  "uid" : "a766ac9cf533a629",
+  "name" : "Успешная авторизация на сайте https://software-testing.ru/forum/",
+  "fullName" : "Lesson6.TestsMyProject.authorizationTest",
+  "historyId" : "5669ee226aba103278f5d5b994c90e7d",
+  "time" : {
+    "start" : 1621494358247,
+    "stop" : 1621494378636,
+    "duration" : 20389
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Нажать на кнопку Войти",
+      "time" : {
+        "start" : 1621494374646,
+        "stop" : 1621494375265,
+        "duration" : 619
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Перед кликом на элемент c текстом Войтиa",
+        "time" : {
+          "start" : 1621494374667,
+          "stop" : 1621494374667,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнить поле Логин",
+      "time" : {
+        "start" : 1621494375265,
+        "stop" : 1621494375299,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "login",
+        "value" : "SchastlivyMax"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнить поле Пароль",
+      "time" : {
+        "start" : 1621494375299,
+        "stop" : 1621494375336,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "pass",
+        "value" : "12345678"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Нажать кнопку Войти",
+      "time" : {
+        "start" : 1621494375336,
+        "stop" : 1621494378543,
+        "duration" : 3207
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Перед кликом на элемент c текстом input",
+        "time" : {
+          "start" : 1621494375354,
+          "stop" : 1621494375354,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "maksim-HP-Pavilion-Laptop-13-bb0xxx"
+  }, {
+    "name" : "thread",
+    "value" : "108361@maksim-HP-Pavilion-Laptop-13-bb0xxx.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Lesson6.TestsMyProject"
+  }, {
+    "name" : "testClass",
+    "value" : "Lesson6.TestsMyProject"
+  }, {
+    "name" : "testMethod",
+    "value" : "authorizationTest"
+  }, {
+    "name" : "suite",
+    "value" : "Lesson6.TestsMyProject"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a766ac9cf533a629.json",
+  "parameterValues" : [ ]
+}

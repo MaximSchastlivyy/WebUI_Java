@@ -42,7 +42,7 @@ public class TestsCRM extends BaseTestsCRM {
         new ProjectsPage(driver).createProject();
 
         new ProjectCreatePage(driver)
-                .fillName("Тестовый проект 88")
+                .fillName("Тестовый проект 1234567")
                 .setOrganization("Тестовая организация 7")
                 .setContact()
                 .selectBusinessUnit("Research & Development")

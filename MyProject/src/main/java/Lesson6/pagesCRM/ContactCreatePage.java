@@ -1,5 +1,6 @@
 package Lesson6.pagesCRM;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -39,16 +40,19 @@ public class ContactCreatePage extends BaseView{
 
     public static final String creationOfNewContactLocator = "//*[text()='Контактное лицо сохранено']";
 
+    @Step("Заполнить поле фамилия")
     public ContactCreatePage fillLastName(String newContactLastName) {
         lastName.sendKeys(newContactLastName);
         return this;
     }
 
+    @Step("Заполнить поле Имя")
     public ContactCreatePage fillFirstName(String newContactFirstName) {
         firstName.sendKeys(newContactFirstName);
         return this;
     }
 
+    @Step("Установить организацию")
     public ContactCreatePage setOrganization(String org) {
         organization.click();
         webDriverWait.until(ExpectedConditions.elementToBeClickable(selectedOrganizationLocator));
@@ -58,6 +62,7 @@ public class ContactCreatePage extends BaseView{
         return this;
     }
 
+    @Step("Заполнить поле Должность")
     public ContactCreatePage fillJobTitle(String position) {
         jobTitle.sendKeys(position);
         return this;
