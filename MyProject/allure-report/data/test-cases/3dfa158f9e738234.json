@@ -1,0 +1,197 @@
+{
+  "uid" : "3dfa158f9e738234",
+  "name" : "Успешный поиск на сайте https://software-testing.ru/forum/",
+  "fullName" : "Lesson6.TestsMyProject.searchTest",
+  "historyId" : "b98f7f1b97c7a4c07d6a5f6bdac2443d",
+  "time" : {
+    "start" : 1621494330745,
+    "stop" : 1621494358240,
+    "duration" : 27495
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Нажать на кнопку Войти",
+      "time" : {
+        "start" : 1621494339731,
+        "stop" : 1621494340469,
+        "duration" : 738
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Перед кликом на элемент c текстом Войтиa",
+        "time" : {
+          "start" : 1621494339763,
+          "stop" : 1621494339763,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнить поле Логин",
+      "time" : {
+        "start" : 1621494340471,
+        "stop" : 1621494340507,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "login",
+        "value" : "SchastlivyMax"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнить поле Пароль",
+      "time" : {
+        "start" : 1621494340508,
+        "stop" : 1621494340545,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "pass",
+        "value" : "12345678"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Нажать кнопку Войти",
+      "time" : {
+        "start" : 1621494340545,
+        "stop" : 1621494344273,
+        "duration" : 3728
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Перед кликом на элемент c текстом input",
+        "time" : {
+          "start" : 1621494340563,
+          "stop" : 1621494340563,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Ввести информацию в поле поиск",
+      "time" : {
+        "start" : 1621494344294,
+        "stop" : 1621494358156,
+        "duration" : 13862
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Перед кликом на элемент c текстом input",
+        "time" : {
+          "start" : 1621494344359,
+          "stop" : 1621494344359,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "info",
+        "value" : "Начинающему тестировщику"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "maksim-HP-Pavilion-Laptop-13-bb0xxx"
+  }, {
+    "name" : "thread",
+    "value" : "108361@maksim-HP-Pavilion-Laptop-13-bb0xxx.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Lesson6.TestsMyProject"
+  }, {
+    "name" : "testClass",
+    "value" : "Lesson6.TestsMyProject"
+  }, {
+    "name" : "testMethod",
+    "value" : "searchTest"
+  }, {
+    "name" : "suite",
+    "value" : "Lesson6.TestsMyProject"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3dfa158f9e738234.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,104 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "maksim-HP-Pavilion-Laptop-13-bb0xxx",
+    "children" : [ {
+      "name" : "108361@maksim-HP-Pavilion-Laptop-13-bb0xxx.main(1)",
+      "children" : [ {
+        "name" : "shouldAnswerWithTrue",
+        "uid" : "5a95f048ad6aad87",
+        "parentUid" : "f0a7979582ecf1e1bfbd4886ac9ae4cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621494243717,
+          "stop" : 1621494243731,
+          "duration" : 14
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Успешное создание нового проекта на сайте https://crm.geekbrains.space/",
+        "uid" : "cfca162a2c9fc185",
+        "parentUid" : "f0a7979582ecf1e1bfbd4886ac9ae4cb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621494278959,
+          "stop" : 1621494330709,
+          "duration" : 51750
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Успешная авторизация на сайте https://software-testing.ru/forum/",
+        "uid" : "a766ac9cf533a629",
+        "parentUid" : "f0a7979582ecf1e1bfbd4886ac9ae4cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621494358247,
+          "stop" : 1621494378636,
+          "duration" : 20389
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Успешный поиск на сайте https://software-testing.ru/forum/",
+        "uid" : "3dfa158f9e738234",
+        "parentUid" : "f0a7979582ecf1e1bfbd4886ac9ae4cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621494330745,
+          "stop" : 1621494358240,
+          "duration" : 27495
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Отправка личного сообщения несуществующему контакту на сайте https://software-testing.ru/forum/",
+        "uid" : "ff44bb4e3dfde744",
+        "parentUid" : "f0a7979582ecf1e1bfbd4886ac9ae4cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621494415677,
+          "stop" : 1621494429523,
+          "duration" : 13846
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Переход на страницу записи на тренинг \\\"Английский для тестировщиков\\\" на сайте https://software-testing.ru/forum/\"",
+        "uid" : "d631310261e70b27",
+        "parentUid" : "f0a7979582ecf1e1bfbd4886ac9ae4cb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621494378651,
+          "stop" : 1621494415668,
+          "duration" : 37017
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Успешное создание нового контактного лица на сайте https://crm.geekbrains.space/",
+        "uid" : "af40c9bd59992592",
+        "parentUid" : "f0a7979582ecf1e1bfbd4886ac9ae4cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621494244294,
+          "stop" : 1621494278883,
+          "duration" : 34589
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f0a7979582ecf1e1bfbd4886ac9ae4cb"
+    } ],
+    "uid" : "fa1c9b25e641f07be6147d3898ba0067"
+  } ]
+}

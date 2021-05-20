@@ -1,0 +1,422 @@
+{
+  "uid" : "af40c9bd59992592",
+  "name" : "Успешное создание нового контактного лица на сайте https://crm.geekbrains.space/",
+  "fullName" : "Lesson6.TestsCRM.createNewContact",
+  "historyId" : "ebb815f7f23a4578ab3bd4bca0628e74",
+  "time" : {
+    "start" : 1621494244294,
+    "stop" : 1621494278883,
+    "duration" : 34589
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Заполнить поле Логин",
+      "time" : {
+        "start" : 1621494261741,
+        "stop" : 1621494261802,
+        "duration" : 61
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "login",
+        "value" : "Applanatest1"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнить поле Пароль",
+      "time" : {
+        "start" : 1621494261802,
+        "stop" : 1621494261862,
+        "duration" : 60
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "password",
+        "value" : "Student2020!"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Нажать на кнопку Войти",
+      "time" : {
+        "start" : 1621494261862,
+        "stop" : 1621494266556,
+        "duration" : 4694
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Перед кликом на элемент c текстом Войтиbutton",
+        "time" : {
+          "start" : 1621494261885,
+          "stop" : 1621494261885,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Открыть всплывающее меню",
+      "time" : {
+        "start" : 1621494266559,
+        "stop" : 1621494266713,
+        "duration" : 154
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "menuName",
+        "value" : "Контрагенты"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Перейти на страницу контактов",
+      "time" : {
+        "start" : 1621494266716,
+        "stop" : 1621494269331,
+        "duration" : 2615
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Перед кликом на элемент c текстом Контактные лицаspan",
+        "time" : {
+          "start" : 1621494266739,
+          "stop" : 1621494266739,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "2a20e4f560f1a660",
+        "name" : "Скриншот после клика",
+        "source" : "2a20e4f560f1a660.png",
+        "type" : "image/png",
+        "size" : 75777
+      }, {
+        "uid" : "1f6942805635f721",
+        "name" : "Скриншот после клика",
+        "source" : "1f6942805635f721.png",
+        "type" : "image/png",
+        "size" : 75663
+      }, {
+        "uid" : "2413acfb190d452",
+        "name" : "Скриншот после клика",
+        "source" : "2413acfb190d452.png",
+        "type" : "image/png",
+        "size" : 75777
+      }, {
+        "uid" : "e0cadf96bef8e5bd",
+        "name" : "Скриншот после клика",
+        "source" : "e0cadf96bef8e5bd.png",
+        "type" : "image/png",
+        "size" : 75690
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Нажать на кнопку Создать контакт",
+      "time" : {
+        "start" : 1621494269331,
+        "stop" : 1621494271384,
+        "duration" : 2053
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Перед кликом на элемент c текстом Создать контактное лицоa",
+        "time" : {
+          "start" : 1621494269355,
+          "stop" : 1621494269355,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "90e30eb3bb564ee0",
+        "name" : "Скриншот после клика",
+        "source" : "90e30eb3bb564ee0.png",
+        "type" : "image/png",
+        "size" : 173850
+      }, {
+        "uid" : "76357801a61641b1",
+        "name" : "Скриншот после клика",
+        "source" : "76357801a61641b1.png",
+        "type" : "image/png",
+        "size" : 173823
+      }, {
+        "uid" : "778a824ffb349480",
+        "name" : "Скриншот после клика",
+        "source" : "778a824ffb349480.png",
+        "type" : "image/png",
+        "size" : 173842
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнить поле фамилия",
+      "time" : {
+        "start" : 1621494271385,
+        "stop" : 1621494271437,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "newContactLastName",
+        "value" : "Тестов"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнить поле Имя",
+      "time" : {
+        "start" : 1621494271438,
+        "stop" : 1621494271483,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "newContactFirstName",
+        "value" : "Тест"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Установить организацию",
+      "time" : {
+        "start" : 1621494271483,
+        "stop" : 1621494275547,
+        "duration" : 4064
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Перед кликом на элемент c текстом Укажите организациюa",
+        "time" : {
+          "start" : 1621494271505,
+          "stop" : 1621494271505,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "cfa8a14418b680b6",
+        "name" : "Скриншот после клика",
+        "source" : "cfa8a14418b680b6.png",
+        "type" : "image/png",
+        "size" : 104534
+      }, {
+        "uid" : "525ec6dd291d6d",
+        "name" : "Скриншот после клика",
+        "source" : "525ec6dd291d6d.png",
+        "type" : "image/png",
+        "size" : 105535
+      }, {
+        "uid" : "da310ea438927763",
+        "name" : "Скриншот после клика",
+        "source" : "da310ea438927763.png",
+        "type" : "image/png",
+        "size" : 105564
+      }, {
+        "uid" : "cdb7e3fcde6265ae",
+        "name" : "Скриншот после клика",
+        "source" : "cdb7e3fcde6265ae.png",
+        "type" : "image/png",
+        "size" : 113757
+      }, {
+        "uid" : "feb7e9c723e98cfe",
+        "name" : "Скриншот после клика",
+        "source" : "feb7e9c723e98cfe.png",
+        "type" : "image/png",
+        "size" : 113743
+      }, {
+        "uid" : "4201660daae7cb36",
+        "name" : "Скриншот после клика",
+        "source" : "4201660daae7cb36.png",
+        "type" : "image/png",
+        "size" : 113757
+      } ],
+      "parameters" : [ {
+        "name" : "org",
+        "value" : "Тестовая организация 7"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 6,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнить поле Должность",
+      "time" : {
+        "start" : 1621494275548,
+        "stop" : 1621494275600,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "position",
+        "value" : "Директор"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Перед кликом на элемент c текстом Сохранить и закрытьbutton",
+      "time" : {
+        "start" : 1621494275620,
+        "stop" : 1621494275620,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "4b91d6dbebde5af2",
+      "name" : "Скриншот после клика",
+      "source" : "4b91d6dbebde5af2.png",
+      "type" : "image/png",
+      "size" : 108326
+    }, {
+      "uid" : "67f68b0bfe292902",
+      "name" : "Скриншот после клика",
+      "source" : "67f68b0bfe292902.png",
+      "type" : "image/png",
+      "size" : 108316
+    }, {
+      "uid" : "8c1d21c896e7ec20",
+      "name" : "Скриншот после клика",
+      "source" : "8c1d21c896e7ec20.png",
+      "type" : "image/png",
+      "size" : 108326
+    }, {
+      "uid" : "6358f03a6b1d5a2d",
+      "name" : "Скриншот после клика",
+      "source" : "6358f03a6b1d5a2d.png",
+      "type" : "image/png",
+      "size" : 108316
+    }, {
+      "uid" : "fed215545e25195c",
+      "name" : "Скриншот после клика",
+      "source" : "fed215545e25195c.png",
+      "type" : "image/png",
+      "size" : 108326
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 15,
+    "attachmentsCount" : 18,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "maksim-HP-Pavilion-Laptop-13-bb0xxx"
+  }, {
+    "name" : "thread",
+    "value" : "108361@maksim-HP-Pavilion-Laptop-13-bb0xxx.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Lesson6.TestsCRM"
+  }, {
+    "name" : "testClass",
+    "value" : "Lesson6.TestsCRM"
+  }, {
+    "name" : "testMethod",
+    "value" : "createNewContact"
+  }, {
+    "name" : "suite",
+    "value" : "Lesson6.TestsCRM"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "af40c9bd59992592.json",
+  "parameterValues" : [ ]
+}

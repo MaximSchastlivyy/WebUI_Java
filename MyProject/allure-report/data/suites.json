@@ -1,0 +1,108 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "org.example.AppTest",
+    "children" : [ {
+      "name" : "shouldAnswerWithTrue",
+      "uid" : "5a95f048ad6aad87",
+      "parentUid" : "e6c9f2e1afc2c8bc1f989dd6ca005204",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621494243717,
+        "stop" : 1621494243731,
+        "duration" : 14
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e6c9f2e1afc2c8bc1f989dd6ca005204"
+  }, {
+    "name" : "Lesson6.TestsCRM",
+    "children" : [ {
+      "name" : "Успешное создание нового контактного лица на сайте https://crm.geekbrains.space/",
+      "uid" : "af40c9bd59992592",
+      "parentUid" : "a86669cdcf64f2011f108c2ee6f4d88c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621494244294,
+        "stop" : 1621494278883,
+        "duration" : 34589
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Успешное создание нового проекта на сайте https://crm.geekbrains.space/",
+      "uid" : "cfca162a2c9fc185",
+      "parentUid" : "a86669cdcf64f2011f108c2ee6f4d88c",
+      "status" : "broken",
+      "time" : {
+        "start" : 1621494278959,
+        "stop" : 1621494330709,
+        "duration" : 51750
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a86669cdcf64f2011f108c2ee6f4d88c"
+  }, {
+    "name" : "Lesson6.TestsMyProject",
+    "children" : [ {
+      "name" : "Успешный поиск на сайте https://software-testing.ru/forum/",
+      "uid" : "3dfa158f9e738234",
+      "parentUid" : "6b16d7a88c92c9cef93a8ceb162fdc19",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621494330745,
+        "stop" : 1621494358240,
+        "duration" : 27495
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Успешная авторизация на сайте https://software-testing.ru/forum/",
+      "uid" : "a766ac9cf533a629",
+      "parentUid" : "6b16d7a88c92c9cef93a8ceb162fdc19",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621494358247,
+        "stop" : 1621494378636,
+        "duration" : 20389
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Переход на страницу записи на тренинг \\\"Английский для тестировщиков\\\" на сайте https://software-testing.ru/forum/\"",
+      "uid" : "d631310261e70b27",
+      "parentUid" : "6b16d7a88c92c9cef93a8ceb162fdc19",
+      "status" : "broken",
+      "time" : {
+        "start" : 1621494378651,
+        "stop" : 1621494415668,
+        "duration" : 37017
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Отправка личного сообщения несуществующему контакту на сайте https://software-testing.ru/forum/",
+      "uid" : "ff44bb4e3dfde744",
+      "parentUid" : "6b16d7a88c92c9cef93a8ceb162fdc19",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621494415677,
+        "stop" : 1621494429523,
+        "duration" : 13846
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "6b16d7a88c92c9cef93a8ceb162fdc19"
+  } ]
+}

@@ -1,0 +1,137 @@
+{
+  "e9d2151b1c2aaaa7ff0b645f27d9c57b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5a95f048ad6aad87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621494243717,
+        "stop" : 1621494243731,
+        "duration" : 14
+      }
+    } ]
+  },
+  "308821cc53a35c1c7c8f3e5608e22215" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cfca162a2c9fc185",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a href=\"javascript:void(0)\" onclick=\"return false;\" class=\"select2-choice select2-default\" tabindex=\"-1\">...</a> is not clickable at point (337, 331). Other element would receive the click: <div class=\"loader-overlay\"></div>\n  (Session info: chrome=89.0.4389.90)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'maksim-HP-Pavilion-Laptop-13-bb0xxx', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-50-generic', java.version: '11.0.11'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /tmp/.com.google.Chrome.n2F57c}, goog:chromeOptions: {debuggerAddress: localhost:41483}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: fc921c4657bcf1e6504373a167455258",
+      "time" : {
+        "start" : 1621494278959,
+        "stop" : 1621494330709,
+        "duration" : 51750
+      }
+    } ]
+  },
+  "c755aeb403ecd881b31d88b1800d1049" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d631310261e70b27",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for presence of element located by: By.xpath: //a[text()='Выход'] (tried for 30 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1621494378651,
+        "stop" : 1621494415668,
+        "duration" : 37017
+      }
+    } ]
+  },
+  "5669ee226aba103278f5d5b994c90e7d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a766ac9cf533a629",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621494358247,
+        "stop" : 1621494378636,
+        "duration" : 20389
+      }
+    } ]
+  },
+  "ebb815f7f23a4578ab3bd4bca0628e74" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "af40c9bd59992592",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621494244294,
+        "stop" : 1621494278883,
+        "duration" : 34589
+      }
+    } ]
+  },
+  "49faa36dcd5fcc434ef30724062673ad" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ff44bb4e3dfde744",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621494415677,
+        "stop" : 1621494429523,
+        "duration" : 13846
+      }
+    } ]
+  },
+  "b98f7f1b97c7a4c07d6a5f6bdac2443d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3dfa158f9e738234",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621494330745,
+        "stop" : 1621494358240,
+        "duration" : 27495
+      }
+    } ]
+  }
+}

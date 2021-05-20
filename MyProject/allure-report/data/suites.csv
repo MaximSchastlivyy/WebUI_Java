@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Thu May 20 10:04:38 MSK 2021","Thu May 20 10:05:30 MSK 2021","51750","","Lesson6.TestsCRM","","Lesson6.TestsCRM","createNewProject","Успешное создание нового проекта на сайте https://crm.geekbrains.space/",""
+"passed","Thu May 20 10:04:04 MSK 2021","Thu May 20 10:04:38 MSK 2021","34589","","Lesson6.TestsCRM","","Lesson6.TestsCRM","createNewContact","Успешное создание нового контактного лица на сайте https://crm.geekbrains.space/",""
+"passed","Thu May 20 10:05:58 MSK 2021","Thu May 20 10:06:18 MSK 2021","20389","","Lesson6.TestsMyProject","","Lesson6.TestsMyProject","authorizationTest","Успешная авторизация на сайте https://software-testing.ru/forum/",""
+"passed","Thu May 20 10:05:30 MSK 2021","Thu May 20 10:05:58 MSK 2021","27495","","Lesson6.TestsMyProject","","Lesson6.TestsMyProject","searchTest","Успешный поиск на сайте https://software-testing.ru/forum/",""
+"broken","Thu May 20 10:06:18 MSK 2021","Thu May 20 10:06:55 MSK 2021","37017","","Lesson6.TestsMyProject","","Lesson6.TestsMyProject","registrationForTreningTest","Переход на страницу записи на тренинг \""Английский для тестировщиков\"" на сайте https://software-testing.ru/forum/""",""
+"passed","Thu May 20 10:06:55 MSK 2021","Thu May 20 10:07:09 MSK 2021","13846","","Lesson6.TestsMyProject","","Lesson6.TestsMyProject","sendMessageNegativeTest","Отправка личного сообщения несуществующему контакту на сайте https://software-testing.ru/forum/",""
+"passed","Thu May 20 10:04:03 MSK 2021","Thu May 20 10:04:03 MSK 2021","14","","org.example.AppTest","","org.example.AppTest","shouldAnswerWithTrue","shouldAnswerWithTrue",""
